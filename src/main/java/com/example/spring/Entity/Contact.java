@@ -19,6 +19,15 @@ public class Contact {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private long id;
 
+    @Override
+    public String toString() {
+        return "Contact{" +
+                "number='" + number + '\'' +
+                ", name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                '}';
+    }
+
     private String number;
 
     private String name;
