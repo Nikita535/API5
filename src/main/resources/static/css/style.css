@@ -1,0 +1,9 @@
+.table thead th{
+    vertical-align: bottom;
+    border-bottom: none;
+}
+
+.myTable{
+    width: 80%;
+    margin: 0 auto;
+}
